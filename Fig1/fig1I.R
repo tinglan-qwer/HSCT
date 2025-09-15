@@ -1,4 +1,4 @@
-###############This is data for Fig 1I#######
+###############This is data for Fig 1i#######
 rm(list = ls())
 library(dplyr)
 library(ggplot2)
@@ -41,4 +41,5 @@ load("Fig1.Rdata")
         axis.ticks.length = unit(0.1, "cm"),
         legend.position = "right"
       ) 
-    Fig1I
+
+    Fig1i
