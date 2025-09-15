@@ -28,7 +28,7 @@ load("Fig1.RData")
       arrange(Antibiotic_1, time)
 
 #figure generation
-    Fig1E <- ggplot(data, aes(x = time, y = Antibiotic_1, height = count, fill = Antibiotic_1)) +
+    Fig1e <- ggplot(data, aes(x = time, y = Antibiotic_1, height = count, fill = Antibiotic_1)) +
       geom_density_ridges(stat = "identity", scale = 1.5, alpha = 0.7) +
       scale_fill_manual(values = colors) + 
       labs(x = "Time(days)") +
@@ -42,4 +42,5 @@ load("Fig1.RData")
             axis.ticks.length = unit(0.1, "cm"),
             axis.ticks = element_line(color = "black", size = 0.33))
 
-    Fig1E
+    Fig1e
+
